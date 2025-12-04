@@ -76,7 +76,7 @@ export default function Skills({ skills, onAddSkill, onDeleteSkill, onBack, onSu
                 value={skillName}
                 onChange={(e) => setSkillName(e.target.value)}
                 placeholder="e.g., React, Python, UI Design"
-                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition bg-white"
+                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition bg-white text-gray-900 placeholder:text-gray-500"
               />
             </div>
             <div>
@@ -85,7 +85,7 @@ export default function Skills({ skills, onAddSkill, onDeleteSkill, onBack, onSu
                 id="skillLevel"
                 value={skillLevel}
                 onChange={(e) => setSkillLevel(e.target.value as SkillLevel)}
-                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition bg-white"
+                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition bg-white text-gray-900"
               >
                 <option value="Beginner">Beginner</option>
                 <option value="Intermediate">Intermediate</option>
