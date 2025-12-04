@@ -65,7 +65,7 @@ export default function BasicInformation({ formData, onInputChange, onNext }: Ba
             type="text"
             value={formData.Name}
             onChange={(e) => onInputChange("Name", e.target.value)}
-            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition text-gray-900 placeholder:text-gray-500"
             placeholder="Enter your full name"
           />
           {errors.Name && <p className="text-red-600 text-sm mt-1.5">{errors.Name}</p>}
@@ -76,7 +76,7 @@ export default function BasicInformation({ formData, onInputChange, onNext }: Ba
             type="email"
             value={formData.Email}
             onChange={(e) => onInputChange("Email", e.target.value)}
-            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition text-gray-900 placeholder:text-gray-500"
             placeholder="your.email@example.com"
           />
           {errors.Email && <p className="text-red-600 text-sm mt-1.5">{errors.Email}</p>}
@@ -87,7 +87,7 @@ export default function BasicInformation({ formData, onInputChange, onNext }: Ba
             type="tel"
             value={formData.Phone}
             onChange={(e) => onInputChange("Phone", e.target.value)}
-            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition text-gray-900 placeholder:text-gray-500"
             placeholder="+977-9855335687"
           />
           {errors.Phone && <p className="text-red-600 text-sm mt-1.5">{errors.Phone}</p>}
@@ -98,7 +98,7 @@ export default function BasicInformation({ formData, onInputChange, onNext }: Ba
             type="text"
             value={formData.City}
             onChange={(e) => onInputChange("City", e.target.value)}
-            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition text-gray-900 placeholder:text-gray-500"
             placeholder="Enter your city"
           />
           {errors.City && <p className="text-red-600 text-sm mt-1.5">{errors.City}</p>}
